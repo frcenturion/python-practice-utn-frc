@@ -15,3 +15,7 @@ if suma > 2:
     suma // 2
 else:
     suma ** 2
+    
+print('El resultado de la suma es: ', suma)    
+    
+
