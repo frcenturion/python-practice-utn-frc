@@ -15,3 +15,6 @@ superficie = frente * fondo
 
 
 print('El terreno tiene forma ', forma, ' y su superficie es ', superficie)
+
+
+
