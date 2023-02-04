@@ -23,11 +23,17 @@ numeros_jugador = []
 for i in range(0,3):
     numeros_jugador.append(int(input('Ingrese un numero: ')))
     
+for i in numeros_jugador:
+    booleano = i in tarjeta_bingo
+    print(booleano)
+    if booleano:
+        break
+    
 
-variable = any(i in numeros_jugador for i in tarjeta_bingo)             # TENGO DUDAS ACERCA DE ESTO
+# variable = any(i in numeros_jugador for i in tarjeta_bingo)             # TENGO DUDAS ACERCA DE ESTO
 
 
-print(variable)
+#print(variable)
 
     
 
